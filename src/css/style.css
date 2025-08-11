@@ -1,0 +1,131 @@
+/* === Base Elements === */
+body {
+    font-family: var(--font-body);
+    font-weight: var(--fw-400);
+    font-size: var(--font-body);
+    color: var(--stone-600);
+    background-color: var(--white);
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: var(--fw-700);
+}
+
+li {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+li::marker {
+    color: var(--brown-800);
+    font-weight: var(--fw-600);
+}
+
+ul,
+ol {
+    padding: 0 1rem;
+}
+
+/* === Layout Containers === */
+.container {
+    background-color: var(--rose-50);
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+    background-color: var(--white);
+    max-width: 45em;
+    margin: 6rem 0;
+    padding: 1.75rem;
+    border-radius: 1.5rem;
+}
+
+/* === Recipe Image === */
+.image-recipe {
+    display: block;
+    max-width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+/* === Headings  === */
+h1,
+h2 {
+    font-family: var(--font-heading);
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-400);
+    line-height: 1.2s;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: var(--brown-800);
+}
+
+.title {
+    color: var(--stone-900);
+    font-size: 2.5rem;
+}
+
+.title-preparation {
+    color: var(--rose-800);
+    font-weight: var(--fw-600);
+    font-size: 1.275rem;
+    margin-bottom: 0.5rem;
+}
+
+/* === Section Styling === */
+section {
+    padding-top: 2rem;
+}
+
+section+section {
+    border-top: 1px solid var(--stone-100);
+    margin-top: 2rem;
+}
+
+/* === Preparation Time Box === */
+.preparation-time {
+    background-color: var(--rose-50);
+    padding: 1.75rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+}
+
+/* === Nutrition Table === */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 1rem 0;
+}
+
+tr+tr td {
+    border-top: 1px solid var(--stone-100);
+    margin-top: 2rem;
+}
+
+/* Nutrient value styles */
+[data-cell="value-nutrient"] {
+    color: var(--brown-800);
+    font-weight: var(--fw-600);
+}
+
+/* === footer === */
+footer {
+    background-color: var(--stone-150);
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    color: var(--blue-600);
+    text-decoration: underline;
+}
