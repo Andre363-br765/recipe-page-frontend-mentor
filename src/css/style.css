@@ -29,7 +29,7 @@ ol {
 
 /* === Layout Containers === */
 .container {
-    background-color: var(--rose-50);
+    background-color: var(--stone-100);
     display: grid;
     place-items: center;
 }
@@ -83,7 +83,7 @@ section {
 }
 
 section+section {
-    border-top: 1px solid var(--stone-100);
+    border-top: 1px solid var(--stone-150);
     margin-top: 2rem;
 }
 
@@ -106,7 +106,7 @@ td {
 }
 
 tr+tr td {
-    border-top: 1px solid var(--stone-100);
+    border-top: 1px solid var(--stone-150);
     margin-top: 2rem;
 }
 
