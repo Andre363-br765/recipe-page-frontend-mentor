@@ -70,6 +70,7 @@ h2 {
 }
 
 .title-preparation {
+    font-family: var(--font-body);
     color: var(--rose-800);
     font-weight: var(--fw-600);
     font-size: 1.275rem;
